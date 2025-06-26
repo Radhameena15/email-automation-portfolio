@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+      }
+      .header {
+        text-align: center;
+        background-color: #004aad;
+        color: white;
+        padding: 15px;
+        border-radius: 8px 8px 0 0;
+      }
+      .content {
+        padding: 20px;
+      }
+      .highlight {
+        font-weight: bold;
+        color: #004aad;
+      }
+      .footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #777;
+        text-align: center;
+      }
+      a.button {
+        background-color: #004aad;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Payment Schedule Reminder</h2>
+      </div>
+      <div class="content">
+        <p>Dear Customer,</p>
+        <p>This is a friendly reminder regarding the payment milestones for your unit <span class="highlight">%UnitNo%</span>.</p>
+
+        <table>
+          <tr><td>On Booking:</td><td class="highlight">₹%On Booking%</td></tr>
+          <tr><td>Within 15 Days:</td><td class="highlight">₹%Within 15 Days%</td></tr>
+          <tr><td>Foundation Work:</td><td class="highlight">₹%Foundation Work%</td></tr>
+          <tr><td>1st Floor:</td><td class="highlight">₹%1st Floor%</td></tr>
+          <tr><td>7th Floor:</td><td class="highlight">₹%7th Floor%</td></tr>
+          <tr><td>14th Floor:</td><td class="highlight">₹%14th Floor%</td></tr>
+          <tr><td>Final Slab:</td><td class="highlight">₹%Final Slab%</td></tr>
+          <tr><td>Finishing Work:</td><td class="highlight">₹%Finishing work%</td></tr>
+          <tr><td>Intimation to Possession:</td><td class="highlight">₹%Intimation to possession%</td></tr>
+        </table>
+
+        <p><strong>Total Amount:</strong> ₹%Total%</p>
+        <p><strong>Amount Due:</strong> ₹%Total Due%</p>
+        <p><strong>TDS To Be Paid:</strong> ₹%TDS To Be Paid%</p>
+
+        <p>
+          You can access your detailed folder here:  
+          <a href="%Folder Link%" class="button" target="_blank">View Folder</a>
+        </p>
+
+        <p>For any queries, feel free to contact us.</p>
+      </div>
+
+      <div class="footer">
+        This is an automated message. Please do not reply.
+        <br>
+        © 2025 Real Estate Corp
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
