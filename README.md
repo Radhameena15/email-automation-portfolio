@@ -48,10 +48,7 @@ var emailBody = emailBodyTemplate.replace(/%UnitNo%/g, rowData[x])
 ```
 
 ## 📸 Screenshots / Sample Sheet Layout
-
-_Add screenshots showing:_
-
-- Template in `P1` (Subject) and `Q1` (HTML Body)
+- Template in `A1` (Subject) and `B1` (HTML Body)
 - Google Sheet structure with mock data
 - Sample output email in Gmail
 
