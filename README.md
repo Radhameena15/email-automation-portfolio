@@ -93,6 +93,7 @@ You're welcome to fork, adapt, or build upon it — just credit the original aut
 ## 🙌 Want to Collaborate?
 
 Feel free to fork the repo, suggest improvements, or reach out if you'd like help building similar automations for your workflow or business.
+
 🔒 This is a simplified demo version of the full script. If you're interested in the complete working logic or want a customized version for your use case, feel free to connect with me on LinkedIn or send a message.
 
 
